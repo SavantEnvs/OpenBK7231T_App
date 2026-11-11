@@ -1,0 +1,1 @@
+berry setChannel(5,getVar("$hour"))

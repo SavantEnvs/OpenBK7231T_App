@@ -1,0 +1,1 @@
+berry import tester; setChannel(1,tester.fib(10))

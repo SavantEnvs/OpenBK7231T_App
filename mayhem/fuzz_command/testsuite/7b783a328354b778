@@ -1,0 +1,1 @@
+addClockEvent $CH6 0xff 4 backlog addChannel 1 $CH7; echo test event for 4

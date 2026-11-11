@@ -1,0 +1,6 @@
+GET /cm?cmnd=MQTTUser%20another HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0
+Accept: */*
+

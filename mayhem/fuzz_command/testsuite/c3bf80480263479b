@@ -1,0 +1,1 @@
+berry i = 5; def test() i = 10 end; test(); setChannel(1, i)

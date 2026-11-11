@@ -1,0 +1,6 @@
+GET /cfg_wifi_set?ssid=Hello%20%22World%22&pass=1234&ssid2=&pass2=&web_admin_password= HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0
+Accept: */*
+

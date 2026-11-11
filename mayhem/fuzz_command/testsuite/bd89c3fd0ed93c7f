@@ -1,0 +1,1 @@
+berry import json; setChannel(11, 10*json.load(getOpenWeatherReply())["wind"]["speed"])

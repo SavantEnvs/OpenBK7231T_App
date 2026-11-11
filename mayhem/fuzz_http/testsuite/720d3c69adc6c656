@@ -1,0 +1,9 @@
+POST /api/lfs/test.txt HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0
+Accept: */*
+Content-Length: 22
+
+echo 1
+setChannel 1 5

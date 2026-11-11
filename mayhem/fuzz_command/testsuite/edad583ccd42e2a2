@@ -1,0 +1,1 @@
+berry thread_id = setInterval(def() addChannel(1, 1); end, 100);

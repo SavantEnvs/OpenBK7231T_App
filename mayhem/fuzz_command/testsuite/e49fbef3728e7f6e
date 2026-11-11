@@ -1,0 +1,1 @@
+berry import json; setChannel(11, 1000+json.load('{"a": {"b": 678}}')["a"]["b"])

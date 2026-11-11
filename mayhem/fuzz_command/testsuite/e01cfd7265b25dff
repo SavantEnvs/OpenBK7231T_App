@@ -1,0 +1,1 @@
+berry import autoexec; setChannel(3, autoexec.TEST_VALUE)

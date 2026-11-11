@@ -1,0 +1,1 @@
+addEventHandler OnChannelChange 12 publishInt twelveValue $CH12*10

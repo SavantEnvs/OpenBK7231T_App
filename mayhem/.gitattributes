@@ -1,0 +1,2 @@
+# keep seeds byte-exact: upstream .gitattributes sets "* text=auto", which would turn CRLF into LF
+* -text

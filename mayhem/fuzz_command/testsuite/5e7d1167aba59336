@@ -1,0 +1,1 @@
+berry thread_id = setTimeout(def() setChannel(1, 42); setChannel(2, 123); end, 100); print(thread_id)

@@ -1,0 +1,1 @@
+berry setTimeout(def() addChannel(1, 1); addChannel(2, 2); end, 50)

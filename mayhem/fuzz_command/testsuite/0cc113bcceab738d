@@ -1,0 +1,1 @@
+berry addEventHandler("OnMQTT", "myTopic123", def(payload)

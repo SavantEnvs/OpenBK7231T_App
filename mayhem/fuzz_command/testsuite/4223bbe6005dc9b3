@@ -1,0 +1,1 @@
+berry def give() return 7 end; setChannel(1, give() * 3)

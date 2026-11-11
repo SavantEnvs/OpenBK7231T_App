@@ -1,0 +1,10 @@
+project: savantenvs/OpenBK7231T_App
+target: fuzz_command
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_command/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_command
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_command/fuzz_command.dict

@@ -1,0 +1,1 @@
+berry addEventHandler("OnClick", 5, def(arg)

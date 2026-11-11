@@ -1,0 +1,1 @@
+berry import autoexec; autoexec.set_test_channels()

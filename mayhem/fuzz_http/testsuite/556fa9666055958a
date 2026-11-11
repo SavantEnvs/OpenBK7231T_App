@@ -1,0 +1,8 @@
+POST /cfg_mqtt_set HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0
+Accept: */*
+Content-Length: 13
+
+host=a&port=1

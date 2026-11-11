@@ -1,0 +1,1 @@
+berry import json; setChannel(11, json.load(getOpenWeatherReply())["main"]["humidity"])

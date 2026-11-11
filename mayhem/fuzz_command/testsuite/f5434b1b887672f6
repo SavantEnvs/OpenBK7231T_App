@@ -1,0 +1,4 @@
+berry x += 1
+ x += 1
+if 0 x += 2; else x += 3 end
+setChannel(2, 1000+x)

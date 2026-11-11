@@ -1,0 +1,10 @@
+project: savantenvs/OpenBK7231T_App
+target: fuzz_tuyamcu
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_tuyamcu/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_tuyamcu
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_tuyamcu/fuzz_tuyamcu.dict

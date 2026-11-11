@@ -1,0 +1,6 @@
+GET /cm?cmnd=setChannel%201%20123 HTTP/1.1
+Host: 127.0.0.1
+Connection: keep-alive
+User-Agent: Mozilla/5.0
+Accept: */*
+

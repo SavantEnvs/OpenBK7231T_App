@@ -1,0 +1,1 @@
+berry import json; setChannel(11, 1000+json.load('{"a": 567}')["a"])
